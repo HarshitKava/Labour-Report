@@ -9,7 +9,7 @@ nav{
 }
 #date{
     display: inline;
-    align-items: left;
+    float: right;
 }
 #backbtn{
     border: 0px;
@@ -39,7 +39,7 @@ nav{
 }
 #editbtn{
     position: absolute;
-    margin-top: 63%;
+    margin-top: 61%;
     margin-left: 33.1%;
     -webkit-border-radius: 4;
     -moz-border-radius: 4;
