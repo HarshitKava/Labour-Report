@@ -12,7 +12,7 @@ document.querySelector(".bkbtn").addEventListener("click",goBack);
 function chooselabour(x){
     if (x=="type-1"){
         document.querySelector(".typeOfLabour").classList.add("invisible");
-        var type1_labour = ['MASON','CARPENTER'];
+        var type1_labour = ['Mason','Carpenter'];
         var select = document.getElementById('labour');
 
         select.innerHTML="";
@@ -31,7 +31,7 @@ function chooselabour(x){
     }
     else if (x=="type-2"){
         document.querySelector(".typeOfLabour").classList.add("invisible");
-        var type2_labour = ['RIGGER','PAINTER'];
+        var type2_labour = ['Rigger','Painter'];
         var select = document.getElementById('labour');
 
         select.innerHTML="";
@@ -66,12 +66,12 @@ function categoryOfLabour(x){
         document.querySelector(".typeOfLabour").classList.add("invisible");
     }
     else{
-        if (x=='CARPENTER' ||x=='MASON'){
+        if (x=='Carpenter' ||x=='Mason'){
             document.querySelector(".typeOfLabour").classList.remove("invisible");
             document.getElementById("mainLabourLabel").innerHTML = "No. of "+x;
 
         }
-        else if(x=='RIGGER' ||x=='PAINTER')
+        else if(x=='Rigger' ||x=='Painter')
         {
             document.querySelector(".typeOfLabour").classList.remove("invisible");
             document.getElementById("mainLabourLabel").innerHTML = "No. of "+x;
