@@ -10,6 +10,7 @@ body
     font-size: 200%;
     background: #a8a8a8;
 }
+
 #navbar{
     overflow: hidden;
     position: fixed;
@@ -20,18 +21,19 @@ body
 }
 #date{
     display: inline;
-    margin-right: 0%;
+    margin-left: 2%;
 }
 #backbtn{
     float: right;
+    margin-right: 2%;
     border: 0px;
     color: #ffffff;
     background-color: #a8a8a8;
 }
 #addbtn{
     position: absolute;
-    margin-top: 20%;
-    margin-left: 33%;
+    margin-top: 95%;
+    margin-left: 29%;
     -webkit-border-radius: 4;
     -moz-border-radius: 4;
     border-radius: 4px;
@@ -40,7 +42,7 @@ body
     box-shadow: 6px 6px 15px #bfbbbf;
     font-family: Arial;
     color: #ffffff;
-    font-size: 150%;
+    font-size: 195%;
     background: #a8a8a8;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -49,42 +51,11 @@ body
     background: #575457;
     text-decoration: none;
 }
-#editbtn{
-    position: absolute;
-    margin-top: 61%;
-    margin-left: 33.1%;
-    -webkit-border-radius: 4;
-    -moz-border-radius: 4;
-    border-radius: 4px;
-    -webkit-box-shadow: 6px 6px 15px #bfbbbf;
-    -moz-box-shadow: 6px 6px 15px #bfbbbf;
-    box-shadow: 6px 6px 15px #bfbbbf;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 150%;
-    background: #a8a8a8;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-}
-#editbtn:hover {
-    background: #575457;
-    text-decoration: none;
-}
-#delbtn{
-    margin-top: 105%;
+
+#extra{
+    margin-top: 200%;
     margin-left: 30%;
-    -webkit-border-radius: 4;
-    -moz-border-radius: 4;
-    border-radius: 4px;
-    -webkit-box-shadow: 6px 6px 15px #bfbbbf;
-    -moz-box-shadow: 6px 6px 15px #bfbbbf;
-    box-shadow: 6px 6px 15px #bfbbbf;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 150%;
-    background: #a8a8a8;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
+    visibility: hidden;
 }
 #delbtn:hover {
     background: #575457;
