@@ -3,6 +3,12 @@ body
     background: rgb(28, 9, 239);
     background: radial-gradient(circle, rgba(90,89,102,1) 0%, rgba(255,255,255,1) 100%);
 }
+form{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 50%;
+    font-size: 140%;
+}
 .namebar{
     overflow: hidden;
     position: fixed;
@@ -30,34 +36,10 @@ body
     color: #ffffff;
     background-color: #a8a8a8;
 }
-.addbtn{
-    position: absolute;
-    margin-top: 80%;
-    margin-left: 29%;
-    -webkit-border-radius: 4;
-    -moz-border-radius: 4;
-    border-radius: 4px;
-    -webkit-box-shadow: 6px 6px 15px #bfbbbf;
-    -moz-box-shadow: 6px 6px 15px #bfbbbf;
-    box-shadow: 6px 6px 15px #bfbbbf;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 195%;
-    background: #a8a8a8;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-}
-.addbtn:hover {
-    background: #575457;
-    text-decoration: none;
-}
+
 
 #extra{
     margin-top: 200%;
     margin-left: 30%;
     visibility: hidden;
-}
-#delbtn:hover {
-    background: #575457;
-    text-decoration: none;
 }
