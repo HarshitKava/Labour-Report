@@ -1,8 +1,10 @@
 body
 {
-    background: rgb(28, 9, 239);
-    background: radial-gradient(circle, rgba(90,89,102,1) 0%, rgba(255,255,255,1) 100%);
-}
+    background-image: url(https://www.urcindia.com/img/new_logo.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    }
 form{
     position: absolute;
     margin-left: 2%;
