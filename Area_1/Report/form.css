@@ -9,6 +9,9 @@ form{
     margin-top: 40%;
     font-size: 140%;
 }
+.invisible{
+    visibility: hidden;
+}
 .namebar{
     overflow: hidden;
     position: fixed;
@@ -16,7 +19,17 @@ form{
     font-size: 200%;
     background: #a8a8a8;
 }
+.typeOfLabour{
+    font-size: 125%;
+}
 
+#selectContractor{
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+#contractor, #labour{
+    display: block;
+}
 #navbar{
     overflow: hidden;
     position: fixed;

@@ -23,7 +23,7 @@ body
     display: inline;
     margin-left: 2%;
 }
-#backbtn{
+.bkbtn{
     float: right;
     margin-right: 2%;
     border: 0px;

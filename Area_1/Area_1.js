@@ -4,10 +4,10 @@ var m = n.getMonth() + 1;
 var d = n.getDate();
 document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
 
-function checkpass(){ 
+function goBack(){ 
     location.replace("../index.html");
 };
-document.querySelector(".bkbtn").addEventListener("click",checkpass);
+document.querySelector(".bkbtn").addEventListener("click",goBack);
 
 function checkpass(){ 
     location.replace("Report/form.html");

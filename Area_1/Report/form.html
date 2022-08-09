@@ -13,7 +13,7 @@
     <nav class="namebar">Mukesh Ambani-Area_1</nav>
     <div id="navbar"><p id="date"></p><button id="backbtn" class="bkbtn">Back</button></div>
     <form action="push">
-        <div>
+        <div id="selectContractor">
           <label for="">
             Contractor:    
             <select name="" id="contractor" onchange="chooselabour(this.value)">
@@ -34,6 +34,8 @@
               <option value="F">F</option>
             </select>
           </label>
+          <br>
+          <br>
           <label style="display: block;" for="">
             Category: 
             <select name="" id="labour" onchange="categoryOfLabour(this.value)">
@@ -41,9 +43,12 @@
             </select>
           </label>
         </div>
-        <div class="typeOfLabour" style="visibility:hidden;" >
+        <br>
+        <br>
+        <div class="typeOfLabour invisible">
           <p id="mainLabourLabel"></p><input type="number" id="mainLabour">
-          <p>Helper: </p><input type="number" name="" id="helper">
+          <br>
+          <p class="helper">Helper: <br><input type="number" name="" id="helper"></p>
         </div>
         
     </form>
