@@ -3,6 +3,13 @@ body
     background: rgb(28, 9, 239);
     background: radial-gradient(circle, rgba(90,89,102,1) 0%, rgba(255,255,255,1) 100%);
 }
+.namebar{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    font-size: 200%;
+    background: #a8a8a8;
+}
 #navbar{
     overflow: hidden;
     position: fixed;
@@ -13,9 +20,10 @@ body
 }
 #date{
     display: inline;
-    float: right;
+    margin-right: 0%;
 }
 #backbtn{
+    float: right;
     border: 0px;
     color: #ffffff;
     background-color: #a8a8a8;
