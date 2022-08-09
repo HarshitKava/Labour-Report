@@ -34,7 +34,7 @@
               <option value="F">F</option>
             </select>
           </label>
-          <label for="">
+          <label style="display: block;" for="">
             Category: 
             <select name="" id="labour" onchange="categoryOfLabour(this.value)">
               <option value="none">None</option>
@@ -42,7 +42,8 @@
           </label>
         </div>
         <div class="typeOfLabour" style="visibility:hidden;" >
-          <input type="number" name="" id="">
+          <p id="mainLabourLabel"></p><input type="number" id="mainLabour">
+          <p>Helper: </p><input type="number" name="" id="helper">
         </div>
         
     </form>
