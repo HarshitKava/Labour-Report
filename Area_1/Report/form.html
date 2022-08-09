@@ -15,8 +15,9 @@
     <form action="push">
         <div>
           <label for="">
-            Name: 
-            <select name="" id="contractor">
+            Contractor:    
+            <select name="" id="contractor" onchange="chooselabour(this.value)">
+              <option value="none">None</option>
               <option value="type-1">Type-1</option>
               <option value="type-2">Type-2</option>
               <option value="A">A</option>
@@ -33,12 +34,15 @@
               <option value="F">F</option>
             </select>
           </label>
-        </div>
-        <div style="visibility: hidden;">
           <label for="">
             Category: 
-            <input style="display: block;" list="Name" type="text" style="width: 350px;" placeholder="Enter Name">
+            <select name="" id="labour" onchange="categoryOfLabour(this.value)">
+              <option value="none">None</option>
+            </select>
           </label>
+        </div>
+        <div class="typeOfLabour" style="visibility:hidden;" >
+          <input type="number" name="" id="">
         </div>
         
     </form>
