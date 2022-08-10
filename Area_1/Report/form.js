@@ -9,9 +9,17 @@ function goBack(){
 };
 document.querySelector(".bkbtn").addEventListener("click",goBack);
 
+function subData() {
+    goBack();
+};
+document.querySelector(".submitbtn").addEventListener("click",subData)
+
 function chooselabour(x){
     if (x=="type-1"){
         document.querySelector(".typeOfLabour").classList.add("invisible");
+        document.querySelector(".submitbtn").classList.add("invisible");
+
+        
         var type1_labour = ['Mason','Carpenter'];
         var select = document.getElementById('labour');
 
@@ -31,6 +39,8 @@ function chooselabour(x){
     }
     else if (x=="type-2"){
         document.querySelector(".typeOfLabour").classList.add("invisible");
+        document.querySelector(".submitbtn").classList.add("invisible");
+
         var type2_labour = ['Rigger','Painter'];
         var select = document.getElementById('labour');
 
@@ -51,6 +61,8 @@ function chooselabour(x){
     }
     else{
         document.querySelector(".typeOfLabour").classList.add("invisible");
+        document.querySelector(".submitbtn").classList.add("invisible");
+
         var select = document.getElementById('labour');
 
         select.innerHTML="";
@@ -64,16 +76,21 @@ function chooselabour(x){
 function categoryOfLabour(x){
     if (x=='None'){
         document.querySelector(".typeOfLabour").classList.add("invisible");
+        document.querySelector(".submitbtn").classList.add("invisible");
+
     }
     else{
         if (x=='Carpenter' ||x=='Mason'){
             document.querySelector(".typeOfLabour").classList.remove("invisible");
+            document.querySelector(".submitbtn").classList.remove("invisible");
             document.getElementById("mainLabourLabel").innerHTML = "No. of "+x;
 
         }
         else if(x=='Rigger' ||x=='Painter')
         {
             document.querySelector(".typeOfLabour").classList.remove("invisible");
+            document.querySelector(".submitbtn").classList.remove("invisible");
+
             document.getElementById("mainLabourLabel").innerHTML = "No. of "+x;
             document.querySelector(".helper").classList.add("invisible");
         }

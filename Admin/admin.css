@@ -2,41 +2,35 @@ body
 {
     background-image: url(https://www.urcindia.com/img/new_logo.svg);
     background-repeat:no-repeat;
-    background-size:contain;
-    background-position: 90% 20%;
+    background-position: 50% 15%;
     background-size: 40%;
-    }
-form{
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 20%;
-    font-size: 230%;
+    height: 844px;
 }
-.invisible{
-    visibility: hidden;
+button{
+    position: absolute;
+    font-size: 170%;
+    border-radius: 5%;
+    color: #ffffff;
+    background-color: #a8a8a8;
+}
+.addSE{
+    margin-top: 70%;
+    margin-left: 27%;
+}
+.addCont{
+    margin-top: 105%;
+    margin-left: 24%;
+}
+.addHA{
+    margin-top: 145%;
+    margin-left: 14%;
 }
 .namebar{
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     width: 100%;
     font-size: 200%;
     background: #a8a8a8;
-}
-.typeOfLabour{
-    display: block;
-    visibility: visible;
-    margin-bottom: 20%;
-    font-size: 80%;
-}
-
-.submitbtn{
-    font-size: 170%;
-    float: right;
-    margin-top: 175%;
-    margin-right: 8%;
-    border: 0px;
-    color: #ffffff;
-    background-color: #a8a8a8;
 }
 .bkbtn{
     float: right;
@@ -46,12 +40,6 @@ form{
     background-color: #a8a8a8;
 }
 
-#selectContractor{
-    margin-bottom: 20%;
-}
-#contractor, #labour{
-    display: block;
-}
 #navbar{
     overflow: hidden;
     position: fixed;
