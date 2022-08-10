@@ -1,0 +1,46 @@
+body
+{
+    background-image: url(https://www.urcindia.com/img/new_logo.svg);
+    background-repeat:no-repeat;
+    background-position: 50% 15%;
+    background-size: 40%;
+    height: 844px;
+}
+button:hover {
+    background: #575457;
+    text-decoration: none;
+}
+input{
+    background-color:#d7d5d5;
+    border: thin;
+}
+form{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+.submitbtn{
+    font-size: 170%;
+    float: right;
+    margin-top: 175%;
+    margin-right: 8%;
+    border-radius: 5%;
+    border: 0px;
+    color: #ffffff;
+    background-color: #a8a8a8;
+}
+.namebar{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    font-size: 200%;
+    background: #a8a8a8;
+}
+#navbar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-size: 200%;
+    background: #a8a8a8;
+}

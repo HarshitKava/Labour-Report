@@ -6,6 +6,10 @@ body
     background-size: 40%;
     height: 844px;
 }
+button:hover {
+    background: #575457;
+    text-decoration: none;
+}
 .addSE{
     position: absolute;
     font-size: 170%;
