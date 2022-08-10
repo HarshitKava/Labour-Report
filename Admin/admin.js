@@ -12,4 +12,9 @@ document.querySelector(".bkbtn").addEventListener("click",goBack);
 function addSiteEng() {
     location.replace("SiteEng/SiteEng.html");
 }
-document.querySelector(".addSE").addEventListener("click",addSiteEng)
+document.querySelector(".addSE").addEventListener("click",addSiteEng);
+
+function addContractor() {
+    location.replace("Contractor/contractor.html");
+}
+document.querySelector(".addCont").addEventListener("click",addContractor);
