@@ -6,23 +6,31 @@ body
     background-size: 40%;
     height: 844px;
 }
-button{
+.addSE{
     position: absolute;
     font-size: 170%;
     border-radius: 5%;
     color: #ffffff;
     background-color: #a8a8a8;
-}
-.addSE{
     margin-top: 70%;
     margin-left: 30%;
 }
 .addCont{
-    margin-top: 105%;
-    margin-left: 29%;
+    position: absolute;
+    font-size: 170%;
+    border-radius: 5%;
+    color: #ffffff;
+    background-color: #a8a8a8;
+    margin-top: 110%;
+    margin-left: 28%;
 }
 .addHA{
-    margin-top: 145%;
+    position: absolute;
+    font-size: 170%;
+    border-radius: 5%;
+    color: #ffffff;
+    background-color: #a8a8a8;
+    margin-top: 155%;
     margin-left: 19%;
 }
 .namebar{
@@ -34,7 +42,7 @@ button{
 }
 .bkbtn{
     float: right;
-    margin-right: 2%;
+    font-size: 100%;
     border: 0px;
     color: #ffffff;
     background-color: #a8a8a8;
